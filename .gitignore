@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Caches
+db.sqlite3
+*.sqlite3
+
+# Logs
+*.log
+
+# Virtual Environment
+venv/
+env/
+
+# IDE
+.idea/
+
+# Python bytecode
+*.pyc
+
+# Compiled Python source
+*.pyo
+*.pyc
+
+# Python egg metadata
+*.egg-info/
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# Node
+node_modules/
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+
+# Site-specific files
+.local/
+.deploy/
+
+# Database migration files
+/migrations/
+
+# Secret key
+*.secret
+
+# System files
+.DS_Store
+Thumbs.db
