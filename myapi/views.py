@@ -22,14 +22,5 @@ def getData(request):
 @api_view(['POST'])
 def make_prediction(request):
     # print(request.data.get('img'))
-    image = application.processing(request.data.get('img')) # get image's matrix
-    print(len(image))
-    
-    result = application.model_loading(image)
-    print(result[0][0] * 100)
-    print(result[0][1] * 100)
-    """ return  Response(
-        {
-            "res": result
-        }
-    ) """
+    image = application.make_prediction(request.data.get('img')) # get image's matrix
+    print(image)
